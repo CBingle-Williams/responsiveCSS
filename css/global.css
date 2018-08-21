@@ -1,0 +1,108 @@
+.grey {
+  background-color: rgb(245,245,245);
+}
+
+.padding {
+  padding: 15px 0px;
+}
+
+h1,h2,h3,h4,h5,p,ul,small {
+  margin: 0px 30px;
+}
+
+h1,h4 {
+  color:#E13A63;
+}
+
+h4 {
+  margin-top:30px;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  width: 100%;
+}
+
+.main-content {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+#headshot {
+  border-radius: 100%;
+  height: 250px;
+  width: 250px;
+}
+
+#logo {
+  width:100px;
+  margin-top:7px;
+}
+
+#headshot {
+  border-radius: 100%;
+  height: 250px;
+  width: 250px;
+}
+
+.navbar {
+  background-color: #01181b;
+}
+
+.navbar a {
+  list-style: none;
+  text-decoration: none;
+  color: white;
+}
+
+.navbar li {
+  display: inline-block;
+  padding: 0px 10px 10px 0px;
+}
+
+.navbar a:hover {
+  color: grey;
+}
+
+.screenshot {
+  padding: 0px 30px;
+  height: 200px;
+  width: 300px;
+}
+
+@media screen and (max-width: 1024px) {
+  #logo {
+    width:100px;
+    margin-top:7px;
+  }
+
+  #headshot {
+    display: block;
+    border-radius: 100%;
+    height: 250px;
+    width: 250px;
+    margin: 0px auto;
+  }
+
+  .navbar {
+    background-color: #01181b;
+  }
+
+  .navbar a {
+    list-style: none;
+    text-decoration: none;
+    color: white;
+  }
+
+  .navbar li {
+    display: block;
+    padding: 10px 0px 10px 0px;
+    border: 0.5px solid white;
+    width: 100%;
+  }
+
+  .navbar a:hover {
+    color: grey;
+  }
+}
